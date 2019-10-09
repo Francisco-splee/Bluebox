@@ -2,10 +2,6 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-nav ul li a:hover, .menu-activo
-{
-	color:#00aeff;
-}
 nav ul li:last-child a{
 padding-right: 0; border-right: none;
 }
@@ -22,6 +18,10 @@ padding-right: 0; border-right: none;
 	text-decoration: none; color: #626262; font-size: 15px; padding: 0px 25px ; border-right: 2px solid #626262;font-family: 'PT Sans', 'sans-serif';
 
 } 
+#header-top nav ul li a:hover, #header-top nav ul li a.menu-activo
+{
+	color:#00aeff;
+}
 
 #buscador-header{
 	margin-top: 16px;
